@@ -22,10 +22,19 @@ This project assumes you've already had experience with:
 
 ## Task 2 - Import the userRoutes in the server
 
-  1. Import the userRoutes in `server.js`
-  2. register the routes so we can call them using `/user`
+  1. Import the userRoutes in `server.js`.
+  2. register the routes so we can call them using `/user`.
 
-## Task 3 - Import the userRoutes in the server.js
+## Task 3 - Signing a JWT token
+   1. Create a new `POST` route `login`. This route will take the following data as JSON body parameter: 
+```json
+  {
+    "id":"4",
+    "username":"My User"
+    }
+   ```
+
+
   
   
 
@@ -33,7 +42,6 @@ This project assumes you've already had experience with:
 
 
 # Bonus: 
-Create a data layer and a service layer for the room logic. 
 
 
 
