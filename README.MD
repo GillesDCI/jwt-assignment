@@ -33,6 +33,16 @@ This project assumes you've already had experience with:
     "username":"My User"
     }
    ```
+   2. Use the `jsonwebtoken` library to sign a new jwt access_token containing these values. Use a ACCESS_TOKEN_SECRET from the .env file as a secret.
+```javascript
+const accessToken =  jwt.sign(user, process.env.ACCESS_TOKEN_SECRET)
+   ```
+
+   3. Send this accesstoken value as json to the client with status `200`.
+
+
+## Task 4 - Create middleware to verify a access token
+
 
 
   
