@@ -100,6 +100,10 @@ const Products = [
  ```
  4. protect the route using the middleware, you can only access the route using the token. 
 
+
+## Task 6 - Test everything
+Use a client like postman or insomnia to test your API. 
+
   
 
 # Bonus (Optional):
